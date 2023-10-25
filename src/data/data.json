@@ -3,7 +3,7 @@
         {
             "img": "./sites/japanese.png",
             "title": "Japoński",
-            "desc": "Strona zawierająca znaki Kanji pogrupowane według listy Jōyō kanji, kilka zbiorów słownictwa oraz ciemny styl strony. Zbudowana przy pomocy React, React Redux, Typescript, scss, oraz react router.",
+            "desc": "Strona zawierająca znaki Kanji pogrupowane według listy Jōyō kanji, kilka zbiorów słownictwa oraz ciemny styl strony. Zbudowana przy pomocy React, React Redux, Typescript, scss oraz react router.",
             "repo": "https://github.com/Marcel0711/jp",
             "site": "https://japanese-mp.netlify.app/"
         }
