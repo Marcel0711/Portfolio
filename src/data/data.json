@@ -147,62 +147,62 @@
     ],
     "tech": [
         {
-            "svg": "/images/html.svg",
+            "svg": "./images/html.svg",
             "name": "html",
             "link": "https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=pl"
         },
         {
-            "svg": "/images/css.svg",
+            "svg": "./images/css.svg",
             "name": "css",
             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=pl"
         },
         {
-            "svg": "/images/sass.svg",
+            "svg": "./images/sass.svg",
             "name": "scss",
             "link": "https://sass-lang.com/"
         },
         {
-            "svg": "/images/js.svg",
+            "svg": "./images/js.svg",
             "name": "javascript",
             "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=pl"
         },
         {
-            "svg": "/images/react.svg",
+            "svg": "./images/react.svg",
             "name": "react",
             "link": "https://react.dev/"
         },
         {
-            "svg": "/images/redux.svg",
+            "svg": "./images/redux.svg",
             "name": "redux toolkit",
             "link": "https://redux-toolkit.js.org/"
         },
         {
-            "svg": "/images/ts.svg",
+            "svg": "./images/ts.svg",
             "name": "typescript",
             "link": "https://www.typescriptlang.org/"
         },
         {
-            "svg": "/images/php.svg",
+            "svg": "./images/php.svg",
             "name": "php",
             "link": "https://www.php.net/docs.php"
         },
         {
-            "svg": "/images/mongo.svg",
+            "svg": "./images/mongo.svg",
             "name": "mongodb",
             "link": "https://www.mongodb.com/"
         },
         {
-            "svg": "/images/sql.svg",
+            "svg": "./images/sql.svg",
             "name": "sql",
             "link": "https://dev.mysql.com/doc/"
         },
         {
-            "svg": "/images/node.svg",
+            "svg": "./images/node.svg",
             "name": "nodejs",
             "link": "https://nodejs.org/en/docs"
         },
         {
-            "svg": "/images/router.svg",
+            "svg": "./images/router.svg",
             "name": "react router",
             "link": "https://reactrouter.com/en/main"
         }

@@ -7,10 +7,7 @@ const InfoBox = () => {
     return ( 
         <div className="info-box border">
             <ul>
-                <li>
-                    <img src={tel} alt="telphone icon"/>
-                    <span>723 545 059</span>
-                </li>
+
                 <li>
                     <img src={mail} alt="email icon"/>
                     <span>marcelpikul2@gmail.com</span>
