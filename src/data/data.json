@@ -1,0 +1,226 @@
+{
+    "mainSites": [
+        {
+            "img": "./sites/japanese.png",
+            "title": "Japoński",
+            "desc": "Strona zawierająca znaki Kanji pogrupowane według listy Jōyō kanji, kilka zbiorów słownictwa oraz ciemny styl strony. Zbudowana przy pomocy React, React Redux, Typescript, scss, oraz react router.",
+            "repo": "https://github.com/Marcel0711/jp",
+            "site": "https://japanese-mp.netlify.app/"
+        }
+    ],
+    "sites": [
+        {
+            "img": "./sites/japanese.png",
+            "title": "Japanese",
+            "repo": "https://github.com/Marcel0711/jp",
+            "site": "https://japanese-mp.netlify.app/",
+            "tech": [
+                "react", "typescript", "scss", "redux toolkit", "react router"
+            ]
+        },
+        {
+            "img": "./sites/space-tourism.PNG",
+            "title": "Space Tourism",
+            "repo": "https://github.com/Marcel0711/space_tourism",
+            "site": "https://marcel0711.github.io/space_tourism/",
+            "tech": [
+                "react", "typescript", "scss"
+            ]
+        },
+        {
+            "img": "./sites/countries.PNG",
+            "title": "Countries",
+            "repo": "https://github.com/Marcel0711/countries",
+            "site": "https://marcel0711.github.io/countries/",
+            "tech": [
+                "react", "javascript", "scss", "react router"
+            ]
+        },
+        {
+            "img": "./sites/manage.PNG",
+            "title": "Manage landing page",
+            "repo": "https://github.com/Marcel0711/Manage_langin_page",
+            "site": "https://marcel0711.github.io/Manage_langin_page",
+            "tech": [
+                "html", "javascript", "css"
+            ]
+        },
+        {
+            "img": "./sites/insure.PNG",
+            "title": "Insure landing page",
+            "repo": "https://github.com/Marcel0711/insure",
+            "site": "https://marcel0711.github.io/insure/",
+            "tech": [
+                "react", "javascript","scss" 
+            ]
+        },{
+            "img": "./sites/loopstudios.PNG",
+            "title": "Loopstudios landing page",
+            "repo": "https://github.com/Marcel0711/loopstudios_landing_page",
+            "site": "https://marcel0711.github.io/loopstudios_landing_page/",
+            "tech": [
+                "html", "javascript", "css"
+            ]
+        }
+    ],
+    "subSites": [
+        {
+            "title": "Base apparel",
+            "repo": "https://github.com/marcel0711/base_apparel/",
+            "site": "https://marcel0711.github.io/base_apparel/",
+            "tech": [
+                "html", "css"
+            ]
+        },
+        {
+            "title": "Japanese server",
+            "repo": "https://github.com/Marcel0711/jp_server",
+            "site": "-",
+            "tech": [
+                "nodejs", "mongodb"
+            ]
+        },
+        {
+            "title": "Clipboard landing page",
+            "repo": "https://github.com/Marcel0711/Clipboard",
+            "site": "https://marcel0711.github.io/Clipboard/",
+            "tech": [
+                "html", "css"
+            ]
+        },
+        {
+            "title": "Four card section",
+            "repo": "https://github.com/Marcel0711/four_card_section",
+            "site": "https://marcel0711.github.io/four_card_section/",
+            "tech": [
+                "html","css"
+            ]
+        },
+        {
+            "title": "Advice generator",
+            "repo": "https://github.com/Marcel0711/advice_generator",
+            "site": "https://marcel0711.github.io/advice_generator/",
+            "tech": [
+                "html", "javascript", "css"
+            ]
+        },
+        {
+            "title": "calculator",
+            "repo": "https://github.com/Marcel0711/calculator",
+            "site": "https://marcel0711.github.io/calculator/",
+            "tech": [
+                "html", "javascript", "css"
+            ]
+        },
+        {
+            "title": "Article preview",
+            "repo": "https://github.com/Marcel0711/article_preview",
+            "site": "https://marcel0711.github.io/article_preview/",
+            "tech": [
+                "html", "javascript", "css"
+            ]
+        },
+        {
+            "title": "Rating component",
+            "repo": "https://github.com/Marcel0711/rating_component",
+            "site": "https://marcel0711.github.io/rating_component/",
+            "tech": [
+                "html", "javascript", "css"
+            ]
+        },
+        {
+            "title": "Order summary",
+            "repo": "https://github.com/Marcel0711/order_summary",
+            "site": "https://marcel0711.github.io/order_summary/",
+            "tech": [
+                "html", "css"
+            ]
+        },
+        {
+            "title": "QR component",
+            "repo": "https://github.com/Marcel0711/qr_component",
+            "site": "https://marcel0711.github.io/qr_component/",
+            "tech": [
+                "html", "css"
+            ]
+        }
+    ],
+    "tech": [
+        {
+            "svg": "/images/html.svg",
+            "name": "html",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/HTML?retiredLocale=pl"
+        },
+        {
+            "svg": "/images/css.svg",
+            "name": "css",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/CSS?retiredLocale=pl"
+        },
+        {
+            "svg": "/images/sass.svg",
+            "name": "scss",
+            "link": "https://sass-lang.com/"
+        },
+        {
+            "svg": "/images/js.svg",
+            "name": "javascript",
+            "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript?retiredLocale=pl"
+        },
+        {
+            "svg": "/images/react.svg",
+            "name": "react",
+            "link": "https://react.dev/"
+        },
+        {
+            "svg": "/images/redux.svg",
+            "name": "redux toolkit",
+            "link": "https://redux-toolkit.js.org/"
+        },
+        {
+            "svg": "/images/ts.svg",
+            "name": "typescript",
+            "link": "https://www.typescriptlang.org/"
+        },
+        {
+            "svg": "/images/php.svg",
+            "name": "php",
+            "link": "https://www.php.net/docs.php"
+        },
+        {
+            "svg": "/images/mongo.svg",
+            "name": "mongodb",
+            "link": "https://www.mongodb.com/"
+        },
+        {
+            "svg": "/images/sql.svg",
+            "name": "sql",
+            "link": "https://dev.mysql.com/doc/"
+        },
+        {
+            "svg": "/images/node.svg",
+            "name": "nodejs",
+            "link": "https://nodejs.org/en/docs"
+        },
+        {
+            "svg": "/images/router.svg",
+            "name": "react router",
+            "link": "https://reactrouter.com/en/main"
+        }
+    ],
+    "themes": [{
+        "theme": "theme-4",
+        "gradient": "142deg, rgba(233,226,226) 30%, rgba(8,16,29) 34%, rgba(8,16,29) 66%, rgba(36,197,36) 70%"
+    },{
+        "theme": "theme-1",
+        "gradient": "142deg, rgba(233,226,226) 30%, rgba(8,16,29) 34%, rgb(39, 14, 10) 66%, rgb(231, 103, 43) 70%"
+    },{
+        "theme": "theme-2",
+        "gradient": "142deg, rgb(66, 56, 64) 30%, rgb(233, 220, 220) 34%, rgb(233, 220, 220) 66%, rgb(241, 144, 238) 70%"
+    },{
+        "theme": "theme-3",
+        "gradient": "142deg, rgba(233,226,226) 30%, rgb(111, 99, 100) 34%, rgb(111, 99, 100) 66%, rgb(255, 32, 49) 70%"
+    },{
+        "theme": "",
+        "gradient": "142deg, rgba(233,226,226) 30%, rgb(42, 42, 37) 34%, rgb(42, 42, 37) 66%, rgb(233, 242, 119) 70%"
+    }]
+}
