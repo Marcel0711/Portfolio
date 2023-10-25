@@ -10,15 +10,6 @@
     ],
     "sites": [
         {
-            "img": "./sites/japanese.png",
-            "title": "Japanese",
-            "repo": "https://github.com/Marcel0711/jp",
-            "site": "https://japanese-mp.netlify.app/",
-            "tech": [
-                "react", "typescript", "scss", "redux toolkit", "react router"
-            ]
-        },
-        {
             "img": "./sites/space-tourism.PNG",
             "title": "Space Tourism",
             "repo": "https://github.com/Marcel0711/space_tourism",
