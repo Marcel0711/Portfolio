@@ -1,13 +1,13 @@
-import tel from '../assets/tel.svg'
 import mail from '../assets/mail.svg'
 import github from '../assets/github.svg'
 import leetCode from '../assets/leet.svg'
+import { CSSTransition } from 'react-transition-group'
 
-const InfoBox = () => {
+const InfoBox = ({ins}) => {
     return ( 
+        <CSSTransition classNames='tr_box' unmountOnExit timeout={3000} in={ins}>
         <div className="info-box border">
             <ul>
-
                 <li>
                     <img src={mail} alt="email icon"/>
                     <span>marcelpikul2@gmail.com</span>
@@ -22,6 +22,7 @@ const InfoBox = () => {
                 </li>
             </ul>
         </div>
+        </CSSTransition>
      );
 }
  

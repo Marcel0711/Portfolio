@@ -1,6 +1,13 @@
 {
     "mainSites": [
         {
+            "img": "./sites/foodShare.PNG",
+            "title": "FoodShare",
+            "desc": "Strona do dzielenia się przepisami, stworzona z React, Typescript, React Router możliwe jest stworzenie i usunięcie użytkownika oraz dodanie i usuniecię przpisu",
+            "repo": "https://github.com/Marcel0711/foodshare",
+            "site": "https://foodshare-0311.netlify.app/"
+        },
+        {
             "img": "./sites/japanese.png",
             "title": "Japoński",
             "desc": "Strona zawierająca znaki Kanji pogrupowane według listy Jōyō kanji, kilka zbiorów słownictwa oraz ciemny styl strony. Zbudowana przy pomocy React, React Redux, Typescript, scss oraz react router.",
@@ -133,6 +140,14 @@
             "site": "https://marcel0711.github.io/qr_component/",
             "tech": [
                 "html", "css"
+            ]
+        },
+        {
+            "title": "FoodShare server",
+            "repo": "https://github.com/Marcel0711/foodshare_server",
+            "site": "-",
+            "tech": [
+                "nodejs", "mongodb"
             ]
         }
     ],

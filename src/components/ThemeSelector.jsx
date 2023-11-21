@@ -1,4 +1,6 @@
-const ThemeSelector = ({themes, setIsActive}) => {
+import { CSSTransition } from "react-transition-group"
+
+const ThemeSelector = ({themes, setIsActive, ins}) => {
     const switchTheme = (mode = false) => {
         if(mode){
             document.querySelector('body').setAttribute('data-theme', mode)
@@ -9,11 +11,13 @@ const ThemeSelector = ({themes, setIsActive}) => {
     }
     
     return ( 
-        <div className="theme-box border">
-            {themes.map((theme,index) => (
-                <button key={index} onClick={() => switchTheme(theme.theme)} style={{background: `linear-gradient(${theme.gradient})`}}></button>
-            ))}
-        </div>
+        <CSSTransition in={ins} timeout={3000} unmountOnExit classNames='tr_box'>
+            <div className="theme-box border">
+                {themes.map((theme,index) => (
+                    <button key={index} onClick={() => switchTheme(theme.theme)} style={{background: `linear-gradient(${theme.gradient})`}}></button>
+                ))}
+            </div>
+        </CSSTransition>
      );
 }
  
