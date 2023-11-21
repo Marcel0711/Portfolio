@@ -3,7 +3,7 @@
         {
             "img": "./sites/foodShare.PNG",
             "title": "FoodShare",
-            "desc": "Strona do dzielenia się przepisami, stworzona z React, Typescript, React Router możliwe jest stworzenie i usunięcie użytkownika oraz dodanie i usuniecię przpisu",
+            "desc": "Strona do udostępniania przepisów, stworzona przy użyciu React, Typescript, React Router, możliwe jest tworzenie i usuwanie użytkowników oraz dodawanie i usuwanie przepisów.",
             "repo": "https://github.com/Marcel0711/foodshare",
             "site": "https://foodshare-0311.netlify.app/"
         },
