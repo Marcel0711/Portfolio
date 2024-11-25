@@ -1,6 +1,5 @@
 import { useState } from "react"
 import ThemeSelector from '../components/ThemeSelector'
-import InfoBox from '../components/InfoBox'
 import { CSSTransition } from "react-transition-group"
 
 const Header = ({themes}) => {
@@ -22,10 +21,6 @@ const Header = ({themes}) => {
             <div>
                 <button className='btn border' onClick={() => showContent(0)}>Motyw</button>
                 <ThemeSelector themes={themes} setIsActive={() => setIsActive([false, false])} ins={isActive[0]}/>
-            </div>
-            <div>
-                <button className='btn border' onClick={() => showContent(1)}>Info</button>
-                <InfoBox ins={isActive[1]}/>
             </div>
         </header>
      );
