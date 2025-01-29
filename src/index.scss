@@ -107,6 +107,7 @@ main{
 
 .border{
   border: 1px solid var(--elemMain);
+  background-color: var(--background);
   position: relative;
 
   &::after{
@@ -116,6 +117,7 @@ main{
     height: 100%;
     z-index: -1;
     border: 1px solid var(--elemSecond);
+    background-color: var(--elemSecond);
     top: 16px;
     left: 16px;
   }
@@ -127,7 +129,7 @@ main{
   padding: 8px;
   width: 90px;
   text-align: center;
-  background-color: transparent;
+  cursor: pointer;
   color: var(--elemMain_soft);
 
   img{
@@ -258,7 +260,6 @@ main{
   padding: 12px;
   display: flex;
   column-gap: 16px;
-  z-index: 2;
 
   &::after{
     left: 4px;
@@ -306,7 +307,7 @@ main{
   transition: 0.1s ease-in;
 
   img{
-    width: 60px;
+    width: 32px;
     filter: var(--elemMain_filter);
   }
   p{
@@ -373,7 +374,7 @@ main{
 }
 
 .section-sub-sites{
-  margin-top: 48px;
+  margin-top: 96px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

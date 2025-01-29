@@ -206,6 +206,21 @@
             "svg": "./images/router.svg",
             "name": "react router",
             "link": "https://reactrouter.com/en/main"
+        },
+        {
+            "svg": "./images/jquery.svg",
+            "name": "JQuery",
+            "link": "https://jquery.com/"
+        },
+        {
+            "svg": "./images/photoshop.svg",
+            "name": "Photoshop",
+            "link": "https://www.adobe.com/products/photoshop.html"
+        },
+        {
+            "svg": "./images/vue.svg",
+            "name": "Vue",
+            "link": "https://vuejs.org/"
         }
     ],
     "themes": [{
